@@ -13,7 +13,7 @@ header-includes:
  - \setmonofont{LiberationMono}
  - \setmainfont{DejaVuSans}
  - \renewcommand{\normalsize}{\fontsize{14}{24}\selectfont}
- - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+ - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}, formatcom=\fontsize{14}{16}\selectfont}
  - \setkeys{Gin}{width=0.75\textwidth}
  - \let\origincludegraphics\includegraphics
  - \renewcommand{\includegraphics}[1]{\begin{figure}[H]\centering\origincludegraphics{#1}\end{figure}}
