@@ -8,8 +8,10 @@ header-includes:
  - \usepackage[a3paper,margin=2in]{geometry}
  - \usepackage{setspace}
  - \usepackage{fontspec}
- - \setmainfont{Cabin}
- - \setmonofont{DejaVu Sans Mono}
+ - \usepackage{amsmath}
+ - \setlength{\jot}{20pt}
+ - \setmonofont{LiberationMono}
+ - \setmainfont{DejaVuSans}
  - \renewcommand{\normalsize}{\fontsize{14}{24}\selectfont}
  - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
  - \setkeys{Gin}{width=0.75\textwidth}
