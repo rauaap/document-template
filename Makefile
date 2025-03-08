@@ -19,7 +19,7 @@ endif
 all: $(OUT)
 
 $(OUT): $(SRC) $(STYLE) | $(BUILD_DIR)
-	pandoc $(SRC) --resource-path $(SRC_DIR) --metadata-file $(TEMPLATE) --pdf-engine=xelatex -o $(OUT) $(HIGHLIGHT_ARG)
+	pandoc $(SRC) --lua-filter=mermaid.lua --resource-path $(SRC_DIR) --metadata-file $(TEMPLATE) --pdf-engine=xelatex -o $(OUT) $(HIGHLIGHT_ARG)
 
 $(BUILD_DIR):
 	mkdir build
